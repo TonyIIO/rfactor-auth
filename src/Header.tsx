@@ -13,6 +13,10 @@ const Header: React.FC = () => {
           <li>
             <Link to="/about">О нас</Link>
           </li>
+          <li>
+            <Link to="/profile">Личный кабинет</Link>
+          </li>
+
         </ul>
       </nav>
     </header>

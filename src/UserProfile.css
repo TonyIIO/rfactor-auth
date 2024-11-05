@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=VTB+Group+UI&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'VTB Group UI', sans-serif;
+}
+
+body {
+  background: url('/public/images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+.user-profile-section {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.user-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
