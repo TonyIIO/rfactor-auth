@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=VTB+Group+UI&display=swap');
 
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: 'VTB Group UI', sans-serif;
-}
-
 body {
+  font-family: 'VTB Group UI', sans-serif;
   background: url('/public/images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
+  margin: 0;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,19 +15,24 @@ body {
 .user-profile-container {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
   padding: 20px;
   max-width: 1200px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  flex: 1;
 }
 
 .user-profile-section {
   flex: 1;
   min-width: 300px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .user-photo {
@@ -38,10 +40,13 @@ body {
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 16px;
 }
 
 .form-group {
+  width: 100%;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 label {
